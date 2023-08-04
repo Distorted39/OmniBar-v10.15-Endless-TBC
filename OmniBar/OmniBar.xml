@@ -134,7 +134,7 @@
 						</Anchor>
 					</Anchors>
 				</Texture>
-				<Texture name="$parentFocusTexture" parentKey="FocusTexture" alpha="0" alphaMode="ADD" frameStrata="HIGH" file="Interface\Buttons\UI-ActionButton-Border">
+				<Texture name="$parentFocusTexture" parentKey="FocusTexture" alpha="0" alphaMode="ADD" file="Interface\Buttons\UI-ActionButton-Border">
 					<Size>
 						<AbsDimension x="73" y="73"/>
 					</Size>
