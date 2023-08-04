@@ -1,8 +1,8 @@
-# OmniBar 10.15 for Endless TBC 3.3.5
+# OmniBar v10.15 for Endless TBC 3.3.5
 
 - Title: Omnibar
 - Notes: Tracks enemy cooldowns
-- Version: Backport of 10.15 (Shadowlands)
+- Version: Backport of v10.15 (Shadowlands)
 - Author: Jordon, Modified for Endless TBC by Distorted
 
 # Setup
