@@ -122,13 +122,29 @@
 			</Layer>
 			<Layer level="BACKGROUND" >
 				<Texture name="$parentTargetTexture" parentKey="TargetTexture" alpha="0" alphaMode="ADD" file="Interface\Buttons\UI-ActionButton-Border">
+					<Size>
+						<AbsDimension x="73" y="73"/>
+					</Size>
+					<Color r="1.0" g="0" b="1.0" a="1.0"/>
 					<Anchors>
-						<Anchor point="CENTER"/>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0.5" y="0.5"/>
+							</Offset>
+						</Anchor>
 					</Anchors>
 				</Texture>
-				<Texture name="$parentFocusTexture" parentKey="FocusTexture" alpha="0" alphaMode="ADD" file="Interface\Buttons\UI-ActionButton-Border">
+				<Texture name="$parentFocusTexture" parentKey="FocusTexture" alpha="0" alphaMode="ADD" frameStrata="HIGH" file="Interface\Buttons\UI-ActionButton-Border">
+					<Size>
+						<AbsDimension x="73" y="73"/>
+					</Size>
+					<Color r="1.0" g="1.0" b="1.0" a="1.0"/>
 					<Anchors>
-						<Anchor point="CENTER"/>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0.5" y="0.5"/>
+							</Offset>
+						</Anchor>
 					</Anchors>
 				</Texture>
 			</Layer>
