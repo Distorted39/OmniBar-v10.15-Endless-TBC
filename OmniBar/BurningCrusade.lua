@@ -242,6 +242,7 @@ OmniBarAddonFrame.Cooldowns = {
         [27023] = { parent = 13795},
     [34600] = {class = "HUNTER", duration = 30}, --Snake Trap
     [23989] = {class = "HUNTER", duration = 300}, --Readiness
+    [1543] = {class = "HUNTER", duration = 20}, --Flare
 
     -- Druid
 
