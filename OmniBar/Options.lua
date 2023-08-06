@@ -976,4 +976,5 @@ function OmniBar:SetupOptions()
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("OmniBar", self.options)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("OmniBar", "OmniBar")
 	LibStub("AceConsole-3.0"):RegisterChatCommand("Ob", function() LibStub("AceConfigDialog-3.0"):Open("OmniBar") end)
+	LibStub("AceConsole-3.0"):RegisterChatCommand("Omnibar", function() LibStub("AceConfigDialog-3.0"):Open("OmniBar") end)
 end
